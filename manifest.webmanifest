@@ -1,0 +1,12 @@
+{
+  "name": "GiveTogether",
+  "short_name": "GiveTogether",
+  "description": "Give to identity-verified campaigns in the Philippines.",
+  "start_url": "/app.html",
+  "display": "standalone",
+  "background_color": "#F6F8FB",
+  "theme_color": "#0A1B33",
+  "icons": [
+    { "src": "assets/icons/icn_favicon_01.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

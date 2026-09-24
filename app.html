@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GiveTogether app — Give to verified campaigns</title>
+  <meta name="description" content="Discover identity-verified fundraising campaigns in the Philippines. Give by card, GCash, Maya or online banking and follow every receipted payout.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0A1B33">
+  <link rel="canonical" href="https://givetogether.onrender.com/app.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GiveTogether">
+  <meta property="og:title" content="GiveTogether — Give to verified campaigns">
+  <meta property="og:description" content="Identity-verified campaigns, receipted tranche payouts, and a checkout that shows the full total before you pay.">
+  <meta property="og:image" content="https://givetogether.onrender.com/assets/img/img_og_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icons/icn_favicon_01.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=20260924d">
+  <link rel="stylesheet" href="assets/css/main.css?v=20260924d">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"GiveTogether","url":"https://givetogether.onrender.com/","applicationCategory":"FinanceApplication","operatingSystem":"Web","description":"Give to identity-verified fundraising campaigns in the Philippines.","offers":{"@type":"Offer","price":"0","priceCurrency":"PHP"}}
+  </script>
+</head>
+<body class="app">
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icn_brand_01" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21s-7.5-4.6-9.5-9.3C1.2 8.4 3.3 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.7 0 5.8 3.9 4.5 7.2C19.5 16.4 12 21 12 21z"/></symbol>
+    <symbol id="icn_nav_home" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="icn_nav_explore" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></g></symbol>
+    <symbol id="icn_nav_gifts" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5h14v17l-4.7-3-2.3 2-2.3-2L5 20.5z"/><path d="M9 8.5h6M9 12.5h6"/></g></symbol>
+    <symbol id="icn_nav_add" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="icn_ui_search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></g></symbol>
+    <symbol id="icn_ui_back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 5 8 12l7 7"/></symbol>
+    <symbol id="icn_ui_check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="icn_ui_shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="icn_ui_lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></g></symbol>
+    <symbol id="icn_ui_chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="icn_pay_card" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/><path d="M2.5 10h19M6 14.5h4"/></g></symbol>
+    <symbol id="icn_pay_wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7.5h14.5a1.5 1.5 0 0 1 1.5 1.5v9.5a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 18.5V6a1.5 1.5 0 0 1 1.5-1.5H16"/><circle cx="16" cy="14" r="1.2"/></g></symbol>
+    <symbol id="icn_pay_bank" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9 12 4l8.5 5zM5 9v8M9.5 9v8M14.5 9v8M19 9v8M3.5 20h17"/></g></symbol>
+    <symbol id="icn_share_link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#view">Skip to main content</a>
+
+  <div class="splash" id="splash" aria-hidden="true">
+    <span class="splash_mark"><svg class="icon icon--xl"><use href="#icn_brand_01"/></svg></span>
+    <p class="splash_name">GiveTogether</p>
+    <p class="splash_tag">Designed to give with purpose</p>
+  </div>
+
+  <header class="app-header">
+    <div class="app-header_inner">
+      <a class="brand" href="index.html" aria-label="GiveTogether — back to the landing page">
+        <span class="brand_mark"><svg class="icon"><use href="#icn_brand_01"/></svg></span>
+        <span class="brand_name">GiveTogether</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav_list">
+          <li><a class="nav_list-item" href="#/" data-nav="home"><svg class="nav_icon"><use href="#icn_nav_home"/></svg><span class="nav_label">Home</span></a></li>
+          <li><a class="nav_list-item" href="#/explore" data-nav="explore"><svg class="nav_icon"><use href="#icn_nav_explore"/></svg><span class="nav_label">Explore</span></a></li>
+          <li class="nav_fab-slot"><a class="nav_fab" href="#/manage" aria-label="Manage campaigns"><svg class="nav_icon"><use href="#icn_nav_add"/></svg></a></li>
+          <li><a class="nav_list-item" href="#/gifts" data-nav="gifts"><svg class="nav_icon"><use href="#icn_nav_gifts"/></svg><span class="nav_label">My gifts</span></a></li>
+        </ul>
+      </nav>
+
+      <label class="search search--header">
+        <span class="visually-hidden">Search campaigns</span>
+        <svg class="search_icon"><use href="#icn_ui_search"/></svg>
+        <input class="search_input js-search" type="search" placeholder="Search campaign, cause or place…" autocomplete="off" maxlength="80">
+      </label>
+
+      <a class="btn btn--secondary btn--sm app-header_start" href="index.html">For organisers</a>
+    </div>
+  </header>
+
+  <noscript>
+    <div class="container noscript">
+      <h1 class="h2">GiveTogether needs JavaScript</h1>
+      <p>Please enable JavaScript to browse campaigns and give securely.</p>
+    </div>
+  </noscript>
+  <main class="view" id="view" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="container site-footer_inner">
+      <p class="site-footer_copy">© 2026 GiveTogether Technologies Inc. · Makati City</p>
+      <ul class="site-footer_list">
+        <li><a class="site-footer_list-item" href="index.html">About GiveTogether</a></li>
+        <li><a class="site-footer_list-item" href="index.html#pricing">For organisers</a></li>
+        <li><a class="site-footer_list-item" href="#/manage">Manage campaigns</a></li>
+        <li><a class="site-footer_list-item" href="#/gifts">My gifts</a></li>
+        <li><a class="site-footer_list-item" href="#/start">How we verify</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="assets/js/campaign-store.js?v=20260924d" defer></script>
+  <script src="assets/js/app.js?v=20260924d" defer></script>
+</body>
+</html>
