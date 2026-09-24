@@ -20,33 +20,16 @@
       "hours_left": 2,
       "updates": 3,
       "featured": true,
-      "organiser": {
-        "name": "Rosa Dimaculangan",
-        "initials": "RD",
-        "verified_on": "Sep 4, 2026",
-        "bank": "BDO ···8842"
-      },
+      "organiser": { "name": "Rosa Dimaculangan", "initials": "RD", "verified_on": "Sep 4, 2026", "bank": "BDO ···8842" },
       "story": [
         "On the night of September 3, the river rose past the second floor. Nanay Rosa, 71, and her two grandchildren got out with the clothes they were wearing and nothing else.",
         "The house they left behind had stood for thirty-one years. It was where she raised four children and, later, took in the two grandchildren whose parents work in Cavite.",
         "The barangay has cleared the lot and certified it safe to rebuild. What she needs now is material — hollow blocks, roofing sheets, and a week of labour from two carpenters who have already offered their time at cost. Every peso is receipted and every tranche is published on this page."
       ],
       "budget": [
-        {
-          "label": "Blocks & cement",
-          "detail": "1,480 hollow blocks · quoted Sep 6",
-          "amount": 148000
-        },
-        {
-          "label": "Roofing & hardware",
-          "detail": "28 GI sheets, trusses, fixings",
-          "amount": 62000
-        },
-        {
-          "label": "Two carpenters, 7 days",
-          "detail": "Local rate, offered at cost",
-          "amount": 40000
-        }
+        { "label": "Blocks & cement", "detail": "1,480 hollow blocks · quoted Sep 6", "amount": 148000 },
+        { "label": "Roofing & hardware", "detail": "28 GI sheets, trusses, fixings", "amount": 62000 },
+        { "label": "Two carpenters, 7 days", "detail": "Local rate, offered at cost", "amount": 40000 }
       ],
       "impact": [
         { "amount": 100, "label": "1 hollow block" },
@@ -78,33 +61,16 @@
       "hours_left": 48,
       "updates": 2,
       "featured": true,
-      "organiser": {
-        "name": "Grace Villamor",
-        "initials": "GV",
-        "verified_on": "Sep 1, 2026",
-        "bank": "BPI ···1937"
-      },
+      "organiser": { "name": "Grace Villamor", "initials": "GV", "verified_on": "Sep 1, 2026", "bank": "BPI ···1937" },
       "story": [
         "Liam was born eight weeks early with a heart defect that needs one corrective operation before his first birthday.",
         "His mother, Grace, is a public-school teacher. PhilHealth covers part of the procedure; the balance is due before the Philippine Heart Center can schedule him.",
         "Funds are paid directly to the hospital's billing office against its statement of account, which is posted on this page."
       ],
       "budget": [
-        {
-          "label": "Surgical procedure",
-          "detail": "PHC statement of account, balance after PhilHealth",
-          "amount": 185000
-        },
-        {
-          "label": "Post-op ICU, 5 days",
-          "detail": "Hospital rate card",
-          "amount": 45000
-        },
-        {
-          "label": "Medicines & follow-ups",
-          "detail": "First three months",
-          "amount": 20000
-        }
+        { "label": "Surgical procedure", "detail": "PHC statement of account, balance after PhilHealth", "amount": 185000 },
+        { "label": "Post-op ICU, 5 days", "detail": "Hospital rate card", "amount": 45000 },
+        { "label": "Medicines & follow-ups", "detail": "First three months", "amount": 20000 }
       ],
       "impact": [
         { "amount": 100, "label": "A day of post-op medicine" },
@@ -136,33 +102,16 @@
       "hours_left": 336,
       "updates": 4,
       "featured": true,
-      "organiser": {
-        "name": "Marikina Teachers' Circle",
-        "initials": "MT",
-        "verified_on": "Aug 18, 2026",
-        "bank": "Landbank ···4410"
-      },
+      "organiser": { "name": "Marikina Teachers' Circle", "initials": "MT", "verified_on": "Aug 18, 2026", "bank": "Landbank ···4410" },
       "story": [
         "Three public elementary schools along the Marikina River lost their supply rooms in the July floods.",
         "The Teachers' Circle has priced a single kit per pupil — notebooks, pencils, crayons, a ruler and a waterproof bag — from a local supplier.",
         "Kits are packed by parent volunteers and handed out in class. Photos of every distribution day are posted as updates."
       ],
       "budget": [
-        {
-          "label": "300 pupil kits",
-          "detail": "₱140 per kit, supplier quote Aug 20",
-          "amount": 42000
-        },
-        {
-          "label": "Waterproof storage",
-          "detail": "6 sealed bins per school",
-          "amount": 6000
-        },
-        {
-          "label": "Delivery",
-          "detail": "Two trips, local trucking",
-          "amount": 2000
-        }
+        { "label": "300 pupil kits", "detail": "₱140 per kit, supplier quote Aug 20", "amount": 42000 },
+        { "label": "Waterproof storage", "detail": "6 sealed bins per school", "amount": 6000 },
+        { "label": "Delivery", "detail": "Two trips, local trucking", "amount": 2000 }
       ],
       "impact": [
         { "amount": 100, "label": "Notebooks for 1 pupil" },
@@ -194,33 +143,16 @@
       "hours_left": 216,
       "updates": 5,
       "featured": false,
-      "organiser": {
-        "name": "Barangay Water Council",
-        "initials": "BW",
-        "verified_on": "Aug 2, 2026",
-        "bank": "UnionBank ···0726"
-      },
+      "organiser": { "name": "Barangay Water Council", "initials": "BW", "verified_on": "Aug 2, 2026", "bank": "UnionBank ···0726" },
       "story": [
         "Sitio Bagong Silang's 84 households share one tap that runs four hours a day.",
         "The council will install four 5,000-litre elevated tanks fed by the existing line, so water collected overnight lasts the whole day.",
         "The municipal engineer has approved the plan; tanks are bought in the order they are funded."
       ],
       "budget": [
-        {
-          "label": "Four 5,000 L tanks",
-          "detail": "Supplier quote Jul 28",
-          "amount": 128000
-        },
-        {
-          "label": "Steel stands & plumbing",
-          "detail": "Fabricated locally",
-          "amount": 52000
-        },
-        {
-          "label": "Installation",
-          "detail": "Licensed plumber, 6 days",
-          "amount": 20000
-        }
+        { "label": "Four 5,000 L tanks", "detail": "Supplier quote Jul 28", "amount": 128000 },
+        { "label": "Steel stands & plumbing", "detail": "Fabricated locally", "amount": 52000 },
+        { "label": "Installation", "detail": "Licensed plumber, 6 days", "amount": 20000 }
       ],
       "impact": [
         { "amount": 100, "label": "1 metre of PVC line" },
@@ -252,33 +184,16 @@
       "hours_left": 120,
       "updates": 6,
       "featured": false,
-      "organiser": {
-        "name": "Bantayan Fisherfolk Association",
-        "initials": "BF",
-        "verified_on": "Aug 11, 2026",
-        "bank": "BPI ···5521"
-      },
+      "organiser": { "name": "Bantayan Fisherfolk Association", "initials": "BF", "verified_on": "Aug 11, 2026", "bank": "BPI ···5521" },
       "story": [
         "Twelve families in Barangay Kodia lost the bancas they fish from when the storm surge came in at night.",
         "A local boatwright will build each replacement from marine plywood with a new 16 hp engine.",
         "Boats are handed over one at a time, in the order families were affected, with the hand-over posted here."
       ],
       "budget": [
-        {
-          "label": "12 banca hulls",
-          "detail": "Local boatwright, ₱18,000 each",
-          "amount": 216000
-        },
-        {
-          "label": "12 engines, 16 hp",
-          "detail": "Dealer quote Aug 9",
-          "amount": 240000
-        },
-        {
-          "label": "Nets & floats",
-          "detail": "One set per family",
-          "amount": 24000
-        }
+        { "label": "12 banca hulls", "detail": "Local boatwright, ₱18,000 each", "amount": 216000 },
+        { "label": "12 engines, 16 hp", "detail": "Dealer quote Aug 9", "amount": 240000 },
+        { "label": "Nets & floats", "detail": "One set per family", "amount": 24000 }
       ],
       "impact": [
         { "amount": 100, "label": "A metre of fishing net" },
@@ -310,28 +225,15 @@
       "hours_left": 720,
       "updates": 1,
       "featured": false,
-      "organiser": {
-        "name": "Balay Mindanaw",
-        "initials": "BM",
-        "verified_on": "Jul 30, 2026",
-        "bank": "Landbank ···8803"
-      },
+      "organiser": { "name": "Balay Mindanaw", "initials": "BM", "verified_on": "Jul 30, 2026", "bank": "Landbank ···8803" },
       "story": [
         "Twenty Grade 10 completers from upland barangays have been accepted into senior high but cannot cover transport and boarding.",
         "Each scholarship pays a school year of boarding, jeepney fare home on weekends, and a tablet for modules.",
         "Stipends are released monthly to a guardian's account; grades are shared each quarter with the student's consent."
       ],
       "budget": [
-        {
-          "label": "Boarding, 10 months",
-          "detail": "₱10,000 per student",
-          "amount": 200000
-        },
-        {
-          "label": "Weekend transport",
-          "detail": "₱3,000 per student",
-          "amount": 60000
-        },
+        { "label": "Boarding, 10 months", "detail": "₱10,000 per student", "amount": 200000 },
+        { "label": "Weekend transport", "detail": "₱3,000 per student", "amount": 60000 },
         { "label": "Tablets", "detail": "₱2,000 per student", "amount": 40000 }
       ],
       "impact": [
