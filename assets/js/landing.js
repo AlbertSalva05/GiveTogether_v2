@@ -220,16 +220,16 @@
     bindHero();
     bindCarousel();
     bindLaunch();
-    function drawIcons() {
-      if (REDUCED) { return; }
-      $('.feature-card').each(function (i) {
-        var el = this; el.style.setProperty('--draw-delay', (300 + i * 150) + 'ms');
-        $(el).removeClass('is-drawing'); void el.offsetWidth; $(el).addClass('is-drawing');
-        window.setTimeout(function () { $(el).removeClass('is-drawing'); }, 1800 + i * 150);
-      });
-    }
-    if (document.readyState === 'complete') { drawIcons(); } else { $(window).on('load', drawIcons); }
-    $('.feature-grid').on('click', '.feature-card', function () { var $c = $(this); window.clearTimeout($c.data('tap')); $c.removeClass('is-tapped'); void this.offsetWidth; $c.addClass('is-tapped'); $c.data('tap', window.setTimeout(function () { $c.removeClass('is-tapped'); }, 1400)); });
+    (function bindIcons() {
+      var $cards = $('.feature-card');
+      function draw(el) { $(el).addClass('is-drawn'); }
+      if (REDUCED || !('IntersectionObserver' in window)) { $cards.each(function () { draw(this); }); return; }
+      var io = new IntersectionObserver(function (en) {
+        $.each(en, function (_, x) { if (x.isIntersecting) { draw(x.target); io.unobserve(x.target); } });
+      }, { threshold: 0.25 });
+      $cards.each(function () { io.observe(this); });
+    }());
+    $('.feature-grid').on('click', '.feature-card', function () { var $c = $(this); window.clearTimeout($c.data('tap')); $c.addClass('is-drawn').removeClass('is-tapped'); void this.offsetWidth; $c.addClass('is-tapped'); $c.data('tap', window.setTimeout(function () { $c.removeClass('is-tapped'); }, 1400)); });
     $(window).on('storage', function (e) { if (window.GTStore && e.originalEvent && e.originalEvent.key === window.GTStore.KEY) { loadCampaigns(); } });
     loadCampaigns();
   });
